@@ -1,0 +1,133 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1654px)
+	.iphone_day
+		position: absolute
+		left: -15%
+
+@media only screen and (max-width : 1279px)
+	.iphone_day
+		position: absolute
+		left: -25%
+
+
+
+@media only screen and (max-width : 1200px)
+	.world
+		margin-top: 1255px
+	.day
+		float: left
+		img
+			// display: none
+	.right_menu
+		display: none
+	.none
+		display: none
+	.button_day
+		// margin-top: 25px	
+
+/* Medium Devices, Desktops */
+
+@media screen and (min-device-width: 992px) and (max-device-width: 1200px)
+	.button_day
+		margin-top: 25px
+	.iphone_day
+		width: 80%
+
+@media only screen and (max-width : 992px)
+	.world
+		margin-top: 700px
+		// text-align: center
+		.world_img
+			display: none
+	.world_left
+		margin-top: 100px	
+	.iphone_day
+		position: absolute
+		left: -50%
+	.day
+		// text-align: center
+		margin-top: 100px
+		img
+			display: none
+	.clock
+		margin-top: 60px
+	.header_content
+		h1
+			line-height: 70px
+		p
+			font-size: 1.15em
+		.button_day
+			margin-top: 25px	
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	.header_text
+		margin: none
+	.header_content
+		p
+			font-size: 1.11em
+
+
+	
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	.header_content
+		p
+			font-size: 1.1em
+	.header_img
+		width: 280px
+
+
+@media only screen and (max-width : 419px)
+	.button_day
+		margin-top: 20px
+		margin-left: 0px
+		// float: left
+	.day
+		margin-bottom: 200px
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 326px)
+	.dropbox
+		margin-bottom: 20px
+
+
+@media only screen and (max-width : 326px)
+	.header_img
+		width: 280px
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	.header_text
+		margin: none
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	.fa-bars
+		display: none
+

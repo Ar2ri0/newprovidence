@@ -1,0 +1,390 @@
+@import "fonts"
+@import "libs"
+@import "vars"
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+
+// Initial setting start
+html, body
+	height: 100%
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.75
+	font-family: $default-font
+	overflow-x: hidden
+	opacity: 1
+
+	a
+		text-decoration: none
+		&:hover
+			text-decoration: none
+
+
+
+	h2
+		font-size: em(42px)
+		color: $caption
+		line-height: 52px
+		font-family: $font
+
+	.button
+		color: $accent
+		&:hover
+			text-decoration: none
+			color: $accent
+// Initial setting end
+
+// header start
+header
+	background-image: url("../img/header_bg.png")
+	background-repeat: no-repeat
+	background-size: cover
+	background-position: center center
+	min-height: 100vh
+
+a	
+	transition: all 0.3s ease
+	text-decoration: none
+	&:hover
+		transition: all 0.3s ease
+		text-decoration: none
+		color: $accent
+
+// top line start
+.top_line
+	margin-top: 52px
+	i
+		color: #1b1c1e
+		font-size: 20px
+		&:hover
+			transition: all 0.3s ease
+			color: $accent
+	ul
+		padding-left: 0px
+		margin: 0px
+	a
+		text-decoration: none
+		color: $caption
+		font-size: em(16px)
+		&:hover
+			color: $accent
+	.left_menu
+		margin-left: 27px	
+		display: inline-block
+		#Features_margin
+			margin: 0px 35px 0px 35px	
+	.logo
+		text-align: center
+		display: block
+	.right_menu
+		text-align: center
+		#Contacts_margin
+			margin: 0px 31px 0px 31px
+		i
+			color: #fff
+			margin-right: 13px
+		.button_top
+			color: #fff
+			border-radius: 22px
+			padding:
+				top: 11.5px
+				bottom: 11.5px
+				right: 23px
+				left: 23px
+			background-color: $accent
+			&:hover
+				background-color: #4a96ff
+// top line end
+
+// header content start
+.header_content
+	text-align: center
+	img
+		margin-top: 60px
+		z-index: -1
+	p
+		color: $text
+		font-size: 1.2em
+		text-align: center
+		margin-bottom: 63px	
+	h1
+		font-family: $font
+		font-size: 3.7em
+		color: $caption
+		margin: 0 auto
+		margin-top: 100px
+	.button_header
+		text-decoration: none
+		color: #26272d
+		font-size: 16px
+		padding: 15px 48px 15px 42px
+		border-radius: 100px
+		border: 1px solid #dadcdf
+		i
+			padding-right: 14px
+			font-size: 12px
+// header content end
+// header end
+
+//main content start
+h3
+	font-family: $font
+	font-size: 2.6em
+	line-height: 52px
+	// margin-bottom: 70px
+	margin-top: 0px
+	// basic style start
+#my-content
+	p
+		color: $text
+		font-size: 1.1em
+		line-height: 26px
+	h3
+		color: $caption
+	// basic style end	
+			
+//section protected start
+.protected
+	.col-md-6
+		padding-left: 40px
+	margin-top: 120px
+	i
+		color: $accent
+		font-size: 3.5em
+	h3
+		font 
+			size: 1.6em
+			weight: 300 
+//section protected end
+
+//Section day start
+.iphone_day
+	position: absolute
+	left: 30px
+.day
+	margin-top: 250px
+	h3
+		font-family: $font
+		font-size: 2.6em
+		line-height: 52px
+		margin-bottom: 70px
+		margin-top: 130px
+	p
+		font-size: 1.3em
+		line-height: 28px
+	.button
+		margin-right: 20px
+		position: relative
+		top: 65px
+		display: block
+		float: left
+		i
+			padding-left: 50px
+			font-size: 13px
+		color: #fff
+		border-radius: 22px
+		padding:
+			top: 7px
+			bottom: 7px
+			right: 20px
+			left: 25px
+		background-color: $accent
+		&:hover
+			background-color: #4a96ff
+			color: #fff
+	.button_day
+		padding:
+			right: 33px
+			left: 33px
+		background-color: transparent
+		border-color: #e9e9ea
+		border: 1px solid #e9e9ea
+		color: #000
+		&:hover
+			background-color: #f4f9ff                            
+			color: #000		
+//Section day end
+
+//Section world start
+.world
+	a
+		text-decoration: none
+	margin-top: 510px
+	.world_img
+		position: relative
+		right: -40px
+	h3
+		margin-bottom: 60px	
+	span
+		display: block
+		text-transform: uppercase
+		color: #26272dtt
+		font-weight: bold
+		font-size: 0.75em
+		margin-top: 70px
+		margin-bottom: 30px
+	.dropbox
+		margin-right: 30px	
+//Section world end
+
+// Section iPhones start
+.iPhones
+	margin-top: 230px
+	background-color: #f5f5f8
+	text-align: center
+    overflow: hidden		
+	.line
+		border-bottom: 2px solid $accent
+		text-align: center
+		display: inline-block
+		margin: 0
+		padding: 0
+		width: 50px
+		height: 2px
+	.main_img
+    // overflow: hidden
+    // margin: 0 auto
+    // position: relative
+    // left: 0px
+    // right: 0px
+    // left: -311px
+    // width: 70%
+    // text-align: center
+    // margin: 0 auto
+
+    // display: block
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	// img
+		// z-index: 1
+		// box-shadow: 10px 10px 16px 0px rgba(61, 61, 62, 0.15)
+	// .left_img
+	// 	margin-left: -550px
+	// .right_img
+	// 	margin-right: -500px
+	// ul
+	// 	padding-left: 0px
+	// 	margin-top: 0px
+	// 	margin-bottom: 10px
+	// 	display: block
+	// 	list-style-type: none
+	// .images_list
+	// 	position: relative
+	// 	width: 100%
+	// 	.main-img
+	// 		width: 395px
+  //   	top: 0
+  //   	left: 50%
+  //   	margin-left: -193px
+  //   	box-shadow: none
+	// 	li
+	// 		position: absolute
+	// 		width: 320px
+	// 		top: 92px
+	// 		&:nth-child(1)
+	// 			left: 50%
+	// 			margin-left: 880px
+	// 		&:nth-child(2)
+	// 			left: 50%
+	// 			margin-left: 530px	
+
+// Section iPhones end
+
+
+
+
+
+
+
+
+.hidden
+	display: none
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+
+.mm-listview > li.active
+	&>a
+		color: $accent
+
+@import "media" // Всегда в конце
